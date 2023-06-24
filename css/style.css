@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	font-family: "Segoe UI";
+}
+#header{
+	height: 100vh;
+}
+#nav{
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #e8e8e8;
+}
+#nav > div{
+	height: 100%;
+	width: 80%;
+	background: white;
+	margin: 0 auto;
+	
+}
+#nav > div > a{
+	height:47px;
+	line-height: 50px;
+	padding: 0 5px;
+	color: #0088CC;
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+}
+#nav > div > a:hover{
+	border-bottom: 3px solid #0088CC;
+	border-radius: 2px;
+}
+#nav > div > div{
+	float: right;
+}
+#nav > div > div > a{
+	height: 47px;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 5px;
+	color: #0088CC;
+	text-decoration: none;
+	font-weight: 600;
+}
+#nav > div > div > a:hover{
+	border-bottom: 3px solid #0088CC;
+	border-radius: 2px;
+}
+#content{
+	padding-top: 100px;
+	width: 520px;
+	margin: 0 auto;
+	padding-bottom: 50px
+}
+#content > img
+{
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}
+#content > h1, #content > p{
+	text-align: center;
+}
+#content > #button{
+	height: 50px;
+	background:#1D98DC;
+	width: 250px;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+}
+#content > #button > a{
+	color: white;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#button:hover{
+	opacity: 0.9;
+}
+#content > a{
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 5px 0;
+	display: block;
+	text-align: center;
+	color:#1D98DC;
+}
+#content > a:hover{
+	text-decoration: underline;
+}
+#version{
+	text-align: center;
+}
+#version > p{
+	font-size: 20px;
+}
+#version > p > a{
+	color: #1D98DC;
+	text-decoration: none;
+	
+}
+#version > p > a:hover{
+	text-decoration: underline;
+}
